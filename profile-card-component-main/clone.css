@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+}
+.back-top {
+  position: fixed;
+  top: -130px;
+  left: -129px;
+  width: 352px;
+  height: 347px;
+  background-image: url(./images/bg-pattern-top.svg);
+  background-position: center center;
+  background-size: cover;
+}
+.back-bottom {
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  bottom: -125px;
+  right: -195px;
+  background-image: url(./images/bg-pattern-bottom.svg);
+  background-position: center center;
+  background-size: cover;
+}
+.profile {
+  width: 300px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+}
+.profile-top {
+  width: 100%;
+  height: 136px;
+  background-image: url(./images/bg-pattern-card.svg);
+  background-position: center center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  background-image: url(./images/image-victor.jpg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 0 auto;
+  position: relative;
+  top: -46px;
+}
+.profile-age-name {
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+.profile-name {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 12px;
+}
+.profile-age {
+  display: inline-block;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.profile-address {
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+.profile-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  opacity: 0.5;
+}
+.profile-sns {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sns-num1,
+.sns-num2 {
+  margin-right: 30px;
+}
+.sns-num1,
+.sns-num2,
+.sns-num3 {
+  margin-top: 10px;
+}
+.like {
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.like-type1,
+.like-type2 {
+  margin-right: 38px;
+}
+.like-type1 {
+  margin-left: -15px;
+}
+.like-type1,
+.like-type2,
+.like-type3 {
+  margin-top: 4px;
+}
